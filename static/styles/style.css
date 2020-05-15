@@ -1,0 +1,103 @@
+body {
+    background: #272727;
+    color: #800080;
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+label {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+ul {
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+}
+
+ul li {
+    list-style: none;
+    margin-bottom: 5px;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+section h2 {
+    margin-top: 0;
+}
+
+.login-form {
+    width: 80%;
+    display: inline-block;
+}
+
+.input-large {
+    background: #927192;
+    height: 65px;
+    width: 100%;
+    border-radius: 5px;
+    outline: none;
+    text-align: center;
+    margin: 0 0 15px 0;
+    padding: 0;
+    font-size: 22px;
+    color: #FFFFFF;
+    border: none;
+}
+
+.btn-large {
+    height: 65px;
+    width: 100%;
+    border-radius: 5px;
+    margin-top: 15px;
+    font-size: 22px;
+    background: #5F5F5F;
+    color: #800080;
+}
+
+.btn-small {
+    width: 42.5%;
+    height: 86px;
+    border-radius: 5px;
+    font-size: 22px;
+    background: #5F5F5F;
+    color: #800080;
+    border: none;
+    display: inline-block;
+    line-height: 86px;
+    text-decoration: none;
+}
+.lock-buttons .btn-small,
+.camera-buttons .btn-small
+{
+    margin-left: 8px;
+}
+
+.lock-buttons .btn-small:first-child,
+.camera-buttons .btn-small:first-child
+{
+    margin-left: 0;
+}
+
+
+.lock-submit {
+    width: 25%;
+    height: 25%;
+}
+
+.camera-snapshot {
+    width: 25%;
+    height: 25%;
+}
+
+.prompt {
+    color: #d139d1;
+}
+
+#captures img {
+    width: 100%;
+}

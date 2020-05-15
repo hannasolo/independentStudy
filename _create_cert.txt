@@ -1,0 +1,9 @@
+openssl req -x509 -newkey rsa:1024 -nodes -out cert.pem -keyout key.pem -days 3650
+
+- Set fqdn: server.bananasec.local
+
+On PI set in /etc/ssl/openssl.cnf
+    [system_default_sect]
+    MinProtocol = TLSv1.1
+    CipherString = DEFAULT@SECLEVEL=1
+
